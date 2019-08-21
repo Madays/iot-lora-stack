@@ -1,0 +1,17 @@
+radio set mod lora
+radio set freq 902300000
+radio set pwr 14
+radio set sf sf12
+radio set afcbw 125
+radio set rxbw 250
+radio set fdev 5000
+radio set prlen 8
+radio set crc on
+radio set cr 4/8
+radio set wdt 0
+radio set sync 12
+radio set bw 250
+
+****Transimitir******
+mac pause
+radio tx FF
